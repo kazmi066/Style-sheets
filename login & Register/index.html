@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            
+            <div class="column1">
+                <img src="./assets/3545760.jpg" alt="Image">
+            </div>
+
+            <div class="column2">
+                <div class="sign-btns">
+                    <button class="sign signin active">Sign in</button>
+                    <button class="sign reg">Register</button>
+                </div>
+                
+                <div id="signin" class="content">
+                    <form id="myForm">
+                        <label>Username: </label>
+                        <input type="text" placeholder="Enter your username" class="username">
+    
+                        <label class="passLabel">Password: </label>
+                        <input type="text" placeholder="Enter your password" class="password">
+        
+                        <input type="submit" class="sign" value="Log In">
+                    </form>
+                </div>
+
+                <div id="register" class="content">
+                    <form id="myForm2">
+                        <label>First Name: </label>
+                        <input type="text" placeholder="Enter first name" class="firstName">
+
+                        <label>Last Name: </label>
+                        <input type="text" placeholder="Enter last name" class="lastName">
+
+                        <label>Email: </label>
+                        <input type="email" placeholder="Enter your email" class="email">                        
+
+                        <label class="passLabel">Password: </label>
+                        <input type="text" placeholder="Enter a strong password" class="password">
+        
+                        <input type="submit" class="sign" value="Register">
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    
+    <script src="./code.js"></script>
+</body>
+</html>
